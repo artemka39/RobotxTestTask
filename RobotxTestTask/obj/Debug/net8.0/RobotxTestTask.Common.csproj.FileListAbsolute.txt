@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask\bin\Debug\net8.0\RobotxTestTask.Common.deps.json
+C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask\bin\Debug\net8.0\RobotxTestTask.Common.dll
+C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask\bin\Debug\net8.0\RobotxTestTask.Common.pdb
+C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask\obj\Debug\net8.0\RobotxTestTask.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask\obj\Debug\net8.0\RobotxTestTask.Common.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask\obj\Debug\net8.0\RobotxTestTask.Common.AssemblyInfo.cs
+C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask\obj\Debug\net8.0\RobotxTestTask.Common.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask\obj\Debug\net8.0\RobotxTestTask.Common.dll
+C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask\obj\Debug\net8.0\refint\RobotxTestTask.Common.dll
+C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask\obj\Debug\net8.0\RobotxTestTask.Common.pdb
+C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask\obj\Debug\net8.0\ref\RobotxTestTask.Common.dll

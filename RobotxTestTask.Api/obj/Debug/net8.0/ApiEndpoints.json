@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "RobotxTestTask.Api.Controllers.CardsController",
+    "Method": "GetCards",
+    "RelativePath": "cards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RobotxTestTask.Api.Controllers.CardsController",
+    "Method": "AddCard",
+    "RelativePath": "cards/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "card",
+        "Type": "RobotxTestTask.Common.Models.Card",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RobotxTestTask.Api.Controllers.CardsController",
+    "Method": "UpdateCards",
+    "RelativePath": "cards/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cards",
+        "Type": "System.Collections.Generic.List\u00601[[RobotxTestTask.Common.Models.Card, RobotxTestTask.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

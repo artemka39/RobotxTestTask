@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\bin\Debug\net8.0\ReobotxTestTask.Core.deps.json
+C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\bin\Debug\net8.0\ReobotxTestTask.Core.dll
+C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\bin\Debug\net8.0\ReobotxTestTask.Core.pdb
+C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\bin\Debug\net8.0\RobotxTestTask.Common.dll
+C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\bin\Debug\net8.0\RobotxTestTask.Data.dll
+C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\bin\Debug\net8.0\RobotxTestTask.Data.pdb
+C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\bin\Debug\net8.0\RobotxTestTask.Common.pdb
+C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\obj\Debug\net8.0\ReobotxTestTask.Core.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\obj\Debug\net8.0\ReobotxTestTask.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\obj\Debug\net8.0\ReobotxTestTask.Core.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\obj\Debug\net8.0\ReobotxTestTask.Core.AssemblyInfo.cs
+C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\obj\Debug\net8.0\ReobotxTestTask.Core.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\obj\Debug\net8.0\ReobotxT.DE52C4C1.Up2Date
+C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\obj\Debug\net8.0\ReobotxTestTask.Core.dll
+C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\obj\Debug\net8.0\refint\ReobotxTestTask.Core.dll
+C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\obj\Debug\net8.0\ReobotxTestTask.Core.pdb
+C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\obj\Debug\net8.0\ref\ReobotxTestTask.Core.dll

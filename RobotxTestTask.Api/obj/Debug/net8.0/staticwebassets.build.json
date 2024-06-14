@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yMsAPYGX9sWmjeqI0SOMQoPLVwzXwP1DecfLOhxATcY=",
+  "Source": "RobotxTestTask.Api",
+  "BasePath": "_content/RobotxTestTask.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
