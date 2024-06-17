@@ -15,3 +15,4 @@ C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\obj\Debug\net8.0\
 C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\obj\Debug\net8.0\refint\ReobotxTestTask.Core.dll
 C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\obj\Debug\net8.0\ReobotxTestTask.Core.pdb
 C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\obj\Debug\net8.0\ref\ReobotxTestTask.Core.dll
+C:\Users\user\source\repos\RobotxTestTask\ReobotxTestTask.Core\obj\Debug\net8.0\ReobotxTestTask.Core.sourcelink.json

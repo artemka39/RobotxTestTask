@@ -9,3 +9,4 @@ C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask\obj\Debug\net8.0\Robotx
 C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask\obj\Debug\net8.0\refint\RobotxTestTask.Common.dll
 C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask\obj\Debug\net8.0\RobotxTestTask.Common.pdb
 C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask\obj\Debug\net8.0\ref\RobotxTestTask.Common.dll
+C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask\obj\Debug\net8.0\RobotxTestTask.Common.sourcelink.json

@@ -13,3 +13,4 @@ C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask.Data\obj\Debug\net8.0\R
 C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask.Data\obj\Debug\net8.0\refint\RobotxTestTask.Data.dll
 C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask.Data\obj\Debug\net8.0\RobotxTestTask.Data.pdb
 C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask.Data\obj\Debug\net8.0\ref\RobotxTestTask.Data.dll
+C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask.Data\obj\Debug\net8.0\RobotxTestTask.Data.sourcelink.json

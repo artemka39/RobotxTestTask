@@ -13,7 +13,6 @@ namespace RobotxTestTask.Data
     public class TestTaskDbContext : DbContext
     {
         public DbSet<Card> Cards { get; set; }
-
         public TestTaskDbContext(DbContextOptions<TestTaskDbContext> options) : base(options)
         {
             Database.EnsureCreated();

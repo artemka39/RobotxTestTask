@@ -1,6 +1,6 @@
 ﻿using ExcelDataReader;
-using Refit;
 using RobotxTestTask.Common.Models;
+using RobotxTestTask.Data;
 using RobotxTestTask.Worker;
 using System;
 using System.Collections.Generic;
@@ -13,10 +13,16 @@ namespace ReobotxTestTask.Core.Services
 {
     public class DataImportService
     {
+        private readonly IServiceProvider serviceProvider;
+        public DataImportService(IServiceProvider serviceProvider)
+        {
+            this.serviceProvider = serviceProvider;
+        }
+
         public async Task ImportData(string path)
         {
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-            using (var stream = File.Open(path, FileMode.Open, FileAccess.Read))
+            using (var stream = File.OpenRead(path))
             {
                 using (var reader = ExcelReaderFactory.CreateReader(stream))
                 {
@@ -35,16 +41,10 @@ namespace ReobotxTestTask.Core.Services
         private async Task AddOrUpdateCard(object[] row)
         {
             var card = MapData(row);
-            var localhostClient = RestService.For<ILocalhostClient>("https://localhost:7088");
-            try
-            {
-                await localhostClient.GetCard(card.CardCode);
-            }
-            catch (Exception ex)
-            {
-                await localhostClient.AddCard(card);
-            }
-            await localhostClient.UpdateCard(card);
+            using var scope = serviceProvider.CreateScope();
+            var services = scope.ServiceProvider;
+            var cardService = services.GetService<CardService>();
+            await cardService.AddCard(card);
         }
 
         private Card MapData(object[] row)

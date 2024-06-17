@@ -1051,19 +1051,6 @@
           }
         }
       },
-      "ReobotxTestTask.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "RobotxTestTask.Data": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ReobotxTestTask.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ReobotxTestTask.Core.dll": {}
-        }
-      },
       "RobotxTestTask.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1074,11 +1061,25 @@
           "bin/placeholder/RobotxTestTask.Common.dll": {}
         }
       },
+      "RobotxTestTask.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "RobotxTestTask.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RobotxTestTask.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RobotxTestTask.Core.dll": {}
+        }
+      },
       "RobotxTestTask.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
           "RobotxTestTask.Common": "1.0.0"
         },
         "compile": {
@@ -2947,15 +2948,15 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "ReobotxTestTask.Core/1.0.0": {
-      "type": "project",
-      "path": "../ReobotxTestTask.Core/ReobotxTestTask.Core.csproj",
-      "msbuildProject": "../ReobotxTestTask.Core/ReobotxTestTask.Core.csproj"
-    },
     "RobotxTestTask.Common/1.0.0": {
       "type": "project",
       "path": "../RobotxTestTask/RobotxTestTask.Common.csproj",
       "msbuildProject": "../RobotxTestTask/RobotxTestTask.Common.csproj"
+    },
+    "RobotxTestTask.Core/1.0.0": {
+      "type": "project",
+      "path": "../ReobotxTestTask.Core/RobotxTestTask.Core.csproj",
+      "msbuildProject": "../ReobotxTestTask.Core/RobotxTestTask.Core.csproj"
     },
     "RobotxTestTask.Data/1.0.0": {
       "type": "project",
@@ -2965,8 +2966,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.6",
-      "ReobotxTestTask.Core >= 1.0.0",
+      "RobotxTestTask.Core >= 1.0.0",
       "Swashbuckle.AspNetCore.Swagger >= 6.6.2",
       "Swashbuckle.AspNetCore.SwaggerGen >= 6.6.2",
       "Swashbuckle.AspNetCore.SwaggerUI >= 6.6.2"
@@ -2999,8 +2999,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\user\\source\\repos\\RobotxTestTask\\ReobotxTestTask.Core\\ReobotxTestTask.Core.csproj": {
-              "projectPath": "C:\\Users\\user\\source\\repos\\RobotxTestTask\\ReobotxTestTask.Core\\ReobotxTestTask.Core.csproj"
+            "C:\\Users\\user\\source\\repos\\RobotxTestTask\\ReobotxTestTask.Core\\RobotxTestTask.Core.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\repos\\RobotxTestTask\\ReobotxTestTask.Core\\RobotxTestTask.Core.csproj"
             }
           }
         }
@@ -3020,10 +3020,6 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "[8.0.6, )"
-          },
           "Swashbuckle.AspNetCore.Swagger": {
             "target": "Package",
             "version": "[6.6.2, )"

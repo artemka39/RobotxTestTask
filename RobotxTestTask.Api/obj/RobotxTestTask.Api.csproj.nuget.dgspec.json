@@ -4,12 +4,12 @@
     "C:\\Users\\user\\source\\repos\\RobotxTestTask\\RobotxTestTask.Api\\RobotxTestTask.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\RobotxTestTask\\ReobotxTestTask.Core\\ReobotxTestTask.Core.csproj": {
+    "C:\\Users\\user\\source\\repos\\RobotxTestTask\\ReobotxTestTask.Core\\RobotxTestTask.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\RobotxTestTask\\ReobotxTestTask.Core\\ReobotxTestTask.Core.csproj",
-        "projectName": "ReobotxTestTask.Core",
-        "projectPath": "C:\\Users\\user\\source\\repos\\RobotxTestTask\\ReobotxTestTask.Core\\ReobotxTestTask.Core.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\RobotxTestTask\\ReobotxTestTask.Core\\RobotxTestTask.Core.csproj",
+        "projectName": "RobotxTestTask.Core",
+        "projectPath": "C:\\Users\\user\\source\\repos\\RobotxTestTask\\ReobotxTestTask.Core\\RobotxTestTask.Core.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\user\\source\\repos\\RobotxTestTask\\ReobotxTestTask.Core\\obj\\",
         "projectStyle": "PackageReference",
@@ -92,8 +92,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\source\\repos\\RobotxTestTask\\ReobotxTestTask.Core\\ReobotxTestTask.Core.csproj": {
-                "projectPath": "C:\\Users\\user\\source\\repos\\RobotxTestTask\\ReobotxTestTask.Core\\ReobotxTestTask.Core.csproj"
+              "C:\\Users\\user\\source\\repos\\RobotxTestTask\\ReobotxTestTask.Core\\RobotxTestTask.Core.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\RobotxTestTask\\ReobotxTestTask.Core\\RobotxTestTask.Core.csproj"
               }
             }
           }
@@ -113,10 +113,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.6, )"
-            },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -199,6 +195,10 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.6, )"
             }

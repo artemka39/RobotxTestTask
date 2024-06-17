@@ -1,10 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace RobotxTestTask.Common.Models
 {
     public class Card
     {
-        [Key] public int CardCode { get; set; }
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        public int CardCode { get; set; }
         public string? LastName { get; set; }
         public string? FirstName { get; set; }
         public string? SurName { get; set; }

@@ -1,5 +1,3 @@
-
-
 using ReobotxTestTask.Core.Services;
 using System.Timers;
 

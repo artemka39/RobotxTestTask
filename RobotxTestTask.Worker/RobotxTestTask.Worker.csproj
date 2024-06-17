@@ -11,10 +11,10 @@
     <PackageReference Include="ExcelDataReader" Version="3.6.0" />
     <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
-    <PackageReference Include="Refit" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ReobotxTestTask.Core\RobotxTestTask.Core.csproj" />
     <ProjectReference Include="..\RobotxTestTask\RobotxTestTask.Common.csproj" />
   </ItemGroup>
 </Project>

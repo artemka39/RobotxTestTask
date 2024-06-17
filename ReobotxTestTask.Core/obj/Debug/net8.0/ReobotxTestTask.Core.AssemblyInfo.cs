@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReobotxTestTask.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d6d6a1b1ce75bac3643e037cb6cdd0b867785c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReobotxTestTask.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReobotxTestTask.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
