@@ -75,3 +75,5 @@ C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask.Api\obj\Debug\net8.0\re
 C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask.Api\obj\Debug\net8.0\RobotxTestTask.Api.sourcelink.json
 C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask.Api\bin\Debug\net8.0\RobotxTestTask.Core.dll
 C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask.Api\bin\Debug\net8.0\RobotxTestTask.Core.pdb
+C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask.Api\bin\Debug\net8.0\ExcelDataReader.dll
+C:\Users\user\source\repos\RobotxTestTask\RobotxTestTask.Api\bin\Debug\net8.0\ExcelDataReader.DataSet.dll

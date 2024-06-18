@@ -48,6 +48,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "ExcelDataReader": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "ExcelDataReader.DataSet": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -190,14 +200,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "ExcelDataReader": {
-              "target": "Package",
-              "version": "[3.6.0, )"
-            },
-            "ExcelDataReader.DataSet": {
-              "target": "Package",
-              "version": "[3.6.0, )"
-            },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[8.0.0, )"
